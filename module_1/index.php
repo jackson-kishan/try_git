@@ -8,6 +8,13 @@
     return false;
     endif;  
 
+$n = 7;
+$m = $n++;
+echo $m . " : " . $n;
+$m = ++$n;
+echo $m . " : " . $n;
+
+
 
 
 ?>
